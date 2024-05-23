@@ -1,0 +1,57 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Gaya untuk body */
+body {
+  background-color: #333; /* Abu-abu tua */
+  color: #fff; /* Warna teks putih */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+/* Gaya untuk navigasi */
+ul {
+  list-style-type: none;
+  padding: 20px;
+  background-color: #444; /* Abu-abu yang lebih terang dari latar belakang */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 15px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+li:hover {
+  color: #00bfff; /* Warna teks saat hover */
+}
+
+/* Gaya untuk konten */
+div img {
+  margin-top: 20px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+
+/* Gaya untuk footer */
+div:last-of-type {
+  background-color: #444; /* Sama seperti navigasi */
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
